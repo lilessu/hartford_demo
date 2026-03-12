@@ -25,8 +25,7 @@ Analytics Queries
         ↓
 Flask Dashboard + CSV Export
 
-```text
-
+```
 The goal was to simulate a typical data engineering and application developer workflow, including:
 
 automated data ingestion
@@ -37,5 +36,6 @@ dimensional modeling
 
 SQL analytics
 
-lightweight application development
+lightweight application developmen
+
 
