@@ -111,5 +111,20 @@ Export filenames automatically include timestamps, for example:
 ```text
 hartford_jobs_export_20260312_164015.csv
 ```
+## Tech Stack
+### Backend
+- Python
+- Flask
+- PostgreSQL
+
+### Data Pipeline
+- BeautifulSoup
+- requests
+- SQL ETL scripts
+
+### Frontend
+- HTML
+- CSS
+- Jinja
 
 
