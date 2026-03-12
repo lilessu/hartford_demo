@@ -36,7 +36,9 @@ The goal was to simulate a typical data engineering and application developer wo
 
 - SQL analytics
 
-lightweight application developmen
+- lightweight application developmen
+
+## Features
 
 
 
