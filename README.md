@@ -38,7 +38,31 @@ The goal was to simulate a typical data engineering and application developer wo
 
 - lightweight application developmen
 
-## Features
+# Features
+## Web Scraping
+The scraper extracts structured job data including:
 
+- job title
+
+- location
+
+- category
+
+- employment type
+
+- work mode (remote / hybrid / in-office)
+
+- salary range
+
+- job description
+
+- job reference ID
+
+## Data Pipeline
+Scraped data is loaded into PostgreSQL using a two-stage ETL process.
+### Staging Layer
+Raw scraped job data is inserted into a staging table.
+### Warehouse Layer
+SQL transformation scripts populate a star schema warehouse.
 
 
