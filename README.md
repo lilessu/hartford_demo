@@ -65,4 +65,51 @@ Raw scraped job data is inserted into a staging table.
 ### Warehouse Layer
 SQL transformation scripts populate a star schema warehouse.
 
+Schema design:
+```text
+fact_jobs
+│
+├── dim_location
+├── dim_category
+├── dim_employment_type
+└── dim_work_mode
+```
+
+## Analytics Queries
+The dashboard executes reusable SQL queries such as:
+
+- Jobs by location
+
+- Jobs by category
+
+- Jobs by work mode
+
+- Average salary overall
+
+- Average salary by category
+
+- Average salary by location
+
+- Average salary by work mode
+
+- Average salary by category/location combinations
+
+- Category distribution by location
+
+- Category distribution by work mode
+
+- Work mode breakdown by category
+
+- Top paying jobs
+
+- Full export query
+
+## CSV Export
+The full dataset can be exported directly from the dashboard.
+
+Export filenames automatically include timestamps, for example:
+```text
+hartford_jobs_export_20260312_164015.csv
+```
+
 
