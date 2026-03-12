@@ -24,3 +24,15 @@ Star Schema Data Warehouse
 Analytics Queries
         ↓
 Flask Dashboard + CSV Export
+
+The goal was to simulate a typical data engineering and application developer workflow, including:
+
+automated data ingestion
+
+ETL pipeline design
+
+dimensional modeling
+
+SQL analytics
+
+lightweight application development
